@@ -1,14 +1,17 @@
 <template>
   <NavBar/>
+  <MoveAble />
 </template>
 
 <script>
 import NavBar from './components/NavBar/NavBar.vue'
+import MoveAble from './utilities/interactive/MoveAble/MoveAble.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    MoveAble
   }
 }
 </script>
