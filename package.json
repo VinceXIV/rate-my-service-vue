@@ -10,7 +10,8 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
-    "vue-interactjs": "^0.1.10"
+    "vue-interactjs": "^0.1.10",
+    "vue3-moveable": "^0.23.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
