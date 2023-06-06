@@ -1,9 +1,7 @@
 <template>
   <div class="container">
-      <div class="target" ref="target">
-        <div class="object">
-          <div v-if="object.type == 'text'">{{ object.content }}</div>
-        </div>
+      <div class="target" ref="target" :style="object.style">
+        <div v-if="object.type == 'text'">{{ object.content }}</div>
       </div>
       <Moveable
           className="moveable"
@@ -43,9 +41,5 @@
 </script>
 
 <style>
-  .target {
-    width: 10rem;
-    margin: auto;
-    margin-top: 10rem;
-  }
+ 
 </style>

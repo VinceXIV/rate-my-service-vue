@@ -19,5 +19,12 @@
 </script>
 
 <style>
-    
+    .canvas {
+        position: relative;
+        width: 10rem;
+        height: 10rem;
+        background-color: red;
+        margin: auto;
+        margin-top: 10rem;
+    }
 </style>
