@@ -21,10 +21,11 @@
 <style>
     .canvas {
         position: relative;
-        width: 10rem;
-        height: 10rem;
-        background-color: red;
+        width: 50rem;
+        height: 30rem;
+        background-color: #d4d4d4;
         margin: auto;
-        margin-top: 10rem;
+        margin-top: 6rem;
+        margin-right: 5rem
     }
 </style>
