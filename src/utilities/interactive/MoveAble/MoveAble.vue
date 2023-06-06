@@ -1,6 +1,10 @@
 <template>
   <div class="container">
-      <div class="target" ref="target">Vue Moveable</div>
+      <div class="target" ref="target">
+        <div class="object">
+          <div v-if="object.type == 'text'">{{ object.content }}</div>
+        </div>
+      </div>
       <Moveable
           className="moveable"
           v-bind:target="['.target']"
@@ -18,6 +22,9 @@
   
   export default {
     name: "MoveAble",
+    props: {
+      object: Object
+    },
     components: {
       Moveable,
     },
