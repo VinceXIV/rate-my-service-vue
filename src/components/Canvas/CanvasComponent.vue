@@ -1,6 +1,8 @@
 <template>
-    <div class="canvas" v-for="object in objectArray" :key="object.id">
-        <Moveable  v-bind:object="object"/>
+    <div class="canvas">
+        <div class="canvas-object" v-for="object in objectArray" :key="object.id">
+            <Moveable  v-bind:object="object" v-bind:target="object.type+object.id"/>
+        </div>
     </div>
 </template>
 

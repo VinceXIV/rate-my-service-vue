@@ -12,7 +12,8 @@ export default {
   data(){
     return {
       data: [
-        {id: 1, type: "text", style: {position: "absolute", top: "5rem", padding: "0.5rem", left: "7rem", width: "5rem", height: "2rem"}, content: "This is awesome"}
+        {id: 1, type: "text", style: {position: "absolute", top: "5rem", padding: "0.5rem", left: "7rem", width: "5rem", height: "2rem"}, content: "This is awesome"},
+        {id: 2, type: "text", style: {position: "absolute", top: "10rem", padding: "0.5rem", left: "7rem", width: "10rem", height: "5rem"}, content: "This is awesome"}
       ]
     }
   },
