@@ -1,13 +1,11 @@
 <template>
   <NavBar/>
-  <!-- <MoveAble /> -->
   <CanvasComponent :objectArray="data"  />
 </template>
 
 <script>
 import NavBar from './components/NavBar/NavBar.vue'
 import CanvasComponent from './components/Canvas/CanvasComponent.vue';
-// import MoveAble from './utilities/interactive/MoveAble/MoveAble.vue'
 
 export default {
   name: 'App',
@@ -18,7 +16,6 @@ export default {
   },
   components: {
     NavBar,
-    // MoveAble
     CanvasComponent
   }
 }
